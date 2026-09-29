@@ -1,0 +1,7 @@
+@use "sass:color";
+a {
+  zero: color.change(lab(50% 1 1), $lightness: 0%);
+  hundred: color.change(lab(50% 1 1), $lightness: 100%);
+  missing: lab(none 1 1);
+  okboundary: color.change(oklch(50% 0.1 10deg), $lightness: 100%);
+}

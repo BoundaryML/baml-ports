@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.is-superselector(":not(c d.i):not(e j f)", ":not(c d, e f, g h)")}

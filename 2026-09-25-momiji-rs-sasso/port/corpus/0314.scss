@@ -1,0 +1,3 @@
+.a {@extend .c}
+.b {@extend .d}
+:not(.c):not(.d) {x: y}

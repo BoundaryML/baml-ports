@@ -1,0 +1,5 @@
+@import "a" b and (c: d), e;
+@import "a" supports(b: c) (d: e);
+@import "a" b c d(e) supports(f: g) h i j(k) l m (n: o), (p: q);
+@import "b" c(d);
+@import "e.css";

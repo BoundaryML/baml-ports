@@ -1,0 +1,2 @@
+@mixin surround { border: 1px; @content; margin: 0; }
+.a { @include surround { background: yellow; } }

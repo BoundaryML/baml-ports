@@ -1,0 +1,11 @@
+.parent {
+  color: red;
+}
+.top {
+  color: green;
+}
+@media screen {
+  .top {
+    color: blue;
+  }
+}

@@ -1,0 +1,1 @@
+.a{b:calc-size(auto,var(--y))}

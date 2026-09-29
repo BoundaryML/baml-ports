@@ -1,0 +1,11 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.inspect instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ a { b: inspect((c: (d: 1), "e": f g)); }
+  │        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+

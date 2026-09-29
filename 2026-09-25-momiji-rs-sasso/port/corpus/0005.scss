@@ -1,0 +1,8 @@
+$t: dark;
+.a {
+  @if $t == dark { color: white; background: black; }
+  @else if $t == light { color: black; }
+  @else { color: gray; }
+  padding: 1px;
+}
+@if 2 > 1 { .b { x: 1; } } @else { .c { y: 2; } }

@@ -1,0 +1,3 @@
+@use "sass:meta";
+@function f($args...) {@return meta.inspect((positional: $args, named: meta.keywords($args)))}
+a {b: f(1, $x: 2, $y_z: 3); c: f(1, 2)}

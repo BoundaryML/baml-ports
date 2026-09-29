@@ -1,0 +1,17 @@
+@use "sass:meta";
+$g: 1;
+@mixin gm() {}
+@function gf() { @return 1; }
+a {
+  $l: 2;
+  v_local: meta.variable-exists(l);
+  v_global: meta.variable-exists(g);
+  v_none: meta.variable-exists(nope);
+  gv_yes: meta.global-variable-exists(g);
+  gv_no: meta.global-variable-exists(l);
+  mx: meta.mixin-exists(gm);
+  mx_no: meta.mixin-exists(nope);
+  fn_user: meta.function-exists(gf);
+  fn_builtin: meta.function-exists(rgb);
+  fn_no: meta.function-exists(nope);
+}

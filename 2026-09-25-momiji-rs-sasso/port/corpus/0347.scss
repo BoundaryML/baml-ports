@@ -1,0 +1,10 @@
+@use "sass:color";
+a {
+  n1: oklch(none 0.2 3deg);
+  n2: color(srgb none 0.5 0.7);
+  n3: hsl(none 50% 40%);
+  n4: hsl(120 none 40%);
+  n5: rgb(none 100 100);
+  n6: rgb(100 100 100 / none);
+  n7: hwb(none 30% 40%);
+}

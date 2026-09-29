@@ -1,0 +1,9 @@
+@use "sass:color";
+a {
+  b: color.change(lab(50% 1 1), $lightness: -1%);
+  c: color.change(lab(50% 1 1), $lightness: 101%);
+  d: color.change(lch(50% 10 10deg), $lightness: -1%);
+  e: color.change(oklab(50% 0.1 0.1), $lightness: 101%);
+  f: color.change(oklch(50% 0.1 10deg), $lightness: -1%);
+  g: color.change(lab(50% 1 1 / 0.5), $lightness: -1%);
+}

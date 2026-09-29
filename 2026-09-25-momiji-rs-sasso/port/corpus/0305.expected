@@ -1,0 +1,8 @@
+@utility x {
+  .r {
+    c: d;
+  }
+  @media (min-width: 5px) {
+    a: b;
+  }
+}

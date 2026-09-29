@@ -1,0 +1,4 @@
+.hl { @extend %h; h: 1; }
+.bl { @extend %l; b: 1; }
+.lead { @extend %l; }
+%l + %h { p: 1; @media (min-width: 5px) { p: 2; } }

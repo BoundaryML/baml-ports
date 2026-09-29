@@ -1,0 +1,2 @@
+@use "sass:string";
+a {b: string.unquote("x\E000 y")}

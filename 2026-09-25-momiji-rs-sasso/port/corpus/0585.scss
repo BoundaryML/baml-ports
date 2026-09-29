@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.adjust(red, $lightness: 200%)}

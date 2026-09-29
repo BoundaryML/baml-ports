@@ -1,0 +1,4 @@
+$name: warning;
+$i: 3;
+.icon-#{$name} { content: "#{$name}-#{$i}"; }
+.col-#{$i} { width: 10px * $i; }

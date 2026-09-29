@@ -1,0 +1,12 @@
+.a {
+  .b {
+    @at-root .c {
+      x: y;
+    }
+  }
+}
+.outer {
+  @at-root {
+    .single { z: 1; }
+  }
+}

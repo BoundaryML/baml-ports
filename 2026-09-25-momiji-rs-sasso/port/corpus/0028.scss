@@ -1,0 +1,11 @@
+.a {
+  a: min(1px, 2px);
+  b: max(1, 2, 3);
+  c: clamp(1px, 5px, 3px);
+  d: min(1px + 1px, 2vw);
+  e: min(1in, 2cm);
+  f: min(50%, 30%);
+  g: clamp(1px, 2vw, 3px);
+  h: max(2px, min(1px, 2vw));
+  i: min(1px, var(--x));
+}

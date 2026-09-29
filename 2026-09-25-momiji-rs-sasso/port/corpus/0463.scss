@@ -1,0 +1,3 @@
+a {
+  @for $i from 1px through 5px {b: $i}
+}

@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.extend(":nth-child(2n+1 of .c)", ".c", ".d")}

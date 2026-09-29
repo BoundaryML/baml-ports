@@ -1,0 +1,1 @@
+@use "sass:meta"; a { b: meta.function_exists("rgb"); }

@@ -1,0 +1,3 @@
+a {
+  b: calc-size(1%, 2px);
+}

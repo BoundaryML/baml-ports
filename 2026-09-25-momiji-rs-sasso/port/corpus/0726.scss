@@ -1,0 +1,2 @@
+@use "sass:meta";
+a {x: meta.type-of(hsl(0, 100%, calc(-infinity * 1%)))}

@@ -1,0 +1,7 @@
+.i-a {
+  content: "a";
+}
+
+.i-b {
+  content: "b";
+}

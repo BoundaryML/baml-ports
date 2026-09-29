@@ -1,0 +1,12 @@
+@use "sass:list";
+a {
+  jb_both: list.join([c d], [e f]);
+  jb_first: list.join([c d], e f);
+  jb_second: list.join(c d, [e f]);
+  jb_force_t: list.join(c, d, $bracketed: true);
+  jb_force_f: list.join([c], [d], $bracketed: false);
+  jb_pos: list.join(c, d, comma, true);
+  jmap: list.join((c: d, e: f), (g: h));
+  ap_b: list.append([], 1);
+  ap_map: list.append((c: d, e: f), g);
+}

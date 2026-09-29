@@ -1,0 +1,1 @@
+@use "sass:meta"; a { b: meta.inspect(meta.get-function("map_get")); }

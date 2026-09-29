@@ -1,0 +1,4 @@
+@use "sass:color";
+a {
+  pl: color.mix(lch(30% 0% 0deg), lch(50% 10% 120deg), $method: hsl);
+}

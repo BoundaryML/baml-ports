@@ -1,0 +1,5 @@
+@foo url(https://x.com/), "foobarbaz", foobarbaz {
+  .a {
+    b: c;
+  }
+}

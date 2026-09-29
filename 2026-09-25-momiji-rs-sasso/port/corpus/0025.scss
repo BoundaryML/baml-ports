@@ -1,0 +1,9 @@
+a {
+  b: adjust-hue(red, 540);
+  c: adjust-hue(blue, 0);
+  d: adjust-hue(red, -180);
+  e: adjust-hue(red, 60rad);
+  f: complement(aqua);
+  g: invert(red);
+  h: invert(#b37399, 80%);
+}

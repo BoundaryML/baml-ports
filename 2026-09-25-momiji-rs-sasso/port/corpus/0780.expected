@@ -1,0 +1,3 @@
+.p [data-x="a&b"], .q [data-x="a&b"] {
+  c: 1;
+}

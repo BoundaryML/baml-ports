@@ -1,0 +1,2 @@
+@use "sass:meta";
+a { b: meta.inspect((unquote("\e000"), x)); }

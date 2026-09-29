@@ -1,0 +1,7 @@
+div {
+  v: local;
+}
+
+after {
+  x: root;
+}

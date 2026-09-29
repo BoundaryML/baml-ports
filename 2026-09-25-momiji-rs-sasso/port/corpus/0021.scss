@@ -1,0 +1,9 @@
+@keyframes slide {
+  from { left: 0; }
+  50% { left: 50px; }
+  to { left: 100px; }
+}
+@-webkit-keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}

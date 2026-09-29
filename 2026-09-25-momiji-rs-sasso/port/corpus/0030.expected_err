@@ -1,0 +1,94 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │   b: lighten(red, 100%);
+  │      ^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 100%)
+color.adjust($color, $lightness: 100%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+2 │   b: lighten(red, 100%);
+  │      ^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │   c: darken(red, 100%);
+  │      ^^^^^^^^^^^^^^^^^
+  ╵
+    - 3:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -100%)
+color.adjust($color, $lightness: -100%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+3 │   c: darken(red, 100%);
+  │      ^^^^^^^^^^^^^^^^^
+  ╵
+    - 3:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │   d: lighten(red, 14%);
+  │      ^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 28%)
+color.adjust($color, $lightness: 14%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+4 │   d: lighten(red, 14%);
+  │      ^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │   e: mix(red, red);
+  │      ^^^^^^^^^^^^^
+  ╵
+    - 5:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │   f: mix(red, white, 50%);
+  │      ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 6:6  root stylesheet
+

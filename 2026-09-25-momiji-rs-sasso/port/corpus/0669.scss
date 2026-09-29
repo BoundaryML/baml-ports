@@ -1,0 +1,10 @@
+@use "sass:color";
+a {
+  conv: color.to-space(hsl(none 50% 50%), hwb);
+  same: color.to-space(hsl(none 50% 50%), hsl);
+  scaled: color.scale(hsl(none 50% 50%), $space: hwb);
+  modern: color.to-space(color.change(oklch(50% 0.1 10deg), $lightness: none), hsl);
+  alpha: color.to-space(color.change(oklch(50% 0.1 10deg / none), $lightness: none), hsl);
+  authored: hsl(none 50% 50%);
+  changed: color.change(hsl(10deg, 50%, 50%), $saturation: none);
+}

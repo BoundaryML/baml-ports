@@ -1,0 +1,9 @@
+a {
+  s: 3;
+  up: "AB";
+  q: "foo";
+  sep: space;
+  len: 3;
+  nth: b;
+  round: 2;
+}

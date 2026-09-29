@@ -1,0 +1,11 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.unquote instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ a { b: unquote("\e000") x; }
+  │        ^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+

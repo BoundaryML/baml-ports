@@ -1,0 +1,9 @@
+@mixin m {
+  @content(1, 2);
+}
+a {
+  @include m using ($x, $y) {
+    p: $x;
+    q: $y;
+  }
+}

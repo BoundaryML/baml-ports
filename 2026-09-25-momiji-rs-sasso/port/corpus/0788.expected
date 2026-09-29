@@ -1,0 +1,3 @@
+.p .a\[b[x=y] .p, .p .a\[b[x=y] .q, .q .a\[b[x=y] .p, .q .a\[b[x=y] .q {
+  c: 1;
+}

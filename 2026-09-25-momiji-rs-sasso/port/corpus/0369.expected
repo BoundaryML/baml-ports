@@ -1,0 +1,3 @@
+a[title="x, y"] {
+  color: red;
+}

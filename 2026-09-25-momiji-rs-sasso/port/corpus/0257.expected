@@ -1,0 +1,5 @@
+@supports (a: calc(1 + 2)) and (c: d) {
+  x {
+    y: z;
+  }
+}

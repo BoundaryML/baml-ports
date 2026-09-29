@@ -1,0 +1,4 @@
+@media (r: after) {
+  @media (a: b) {x {y: z}}
+  a {b: c}
+}

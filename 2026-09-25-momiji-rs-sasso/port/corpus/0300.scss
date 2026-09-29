@@ -1,0 +1,3 @@
+@mixin fs { font-size: 1px; @media (a: b) { font-size: 2px; } }
+h1,
+.alpha { @include fs; }

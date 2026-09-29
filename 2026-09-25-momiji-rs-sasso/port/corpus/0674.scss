@@ -1,0 +1,2 @@
+@mixin m($x, $zs...) {z: $zs}
+a {@include m(a, c d e...)}

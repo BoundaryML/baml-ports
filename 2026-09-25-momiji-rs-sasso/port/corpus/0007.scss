@@ -1,0 +1,18 @@
+@function clamp-val($v, $min: 0, $max: 100) {
+  @if $v < $min { @return $min; }
+  @else if $v > $max { @return $max; }
+  @return $v;
+}
+@function sum($nums...) {
+  $t: 0;
+  @each $n in $nums { $t: $t + $n; }
+  @return $t;
+}
+@mixin box($pad, $color: blue) { padding: $pad; color: $color; }
+@mixin surround { border: 1px solid; @content; margin: 0; }
+.a {
+  z-index: clamp-val(150);
+  order: sum(1, 2, 3, 4);
+  @include box(4px);
+}
+.b { @include surround { background: yellow; } }

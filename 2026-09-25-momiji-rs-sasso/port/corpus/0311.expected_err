@@ -1,0 +1,6 @@
+Error: expected "{".
+  ╷
+1 │ a !important { x: y; }
+  │   ^
+  ╵
+  - 1:3  root stylesheet

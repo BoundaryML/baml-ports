@@ -1,0 +1,5 @@
+.b {
+  @mixin ping($n) { @if $n > 0 { @include pong($n - 1); } @else { done: true; } }
+  @mixin pong($n) { @include ping($n); }
+  @include ping(3);
+}

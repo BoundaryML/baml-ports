@@ -1,0 +1,16 @@
+.hl {
+  h: 1;
+}
+
+.bl {
+  b: 1;
+}
+
+.bl + .hl, .lead + .hl {
+  p: 1;
+}
+@media (min-width: 5px) {
+  .bl + .hl, .lead + .hl {
+    p: 2;
+  }
+}

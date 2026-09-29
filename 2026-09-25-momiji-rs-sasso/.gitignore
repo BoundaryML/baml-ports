@@ -1,0 +1,9 @@
+.tools/
+.scratch/
+.baml/
+dist/
+port/upstream/
+port/.state/
+__pycache__/
+.agents/
+.claude/

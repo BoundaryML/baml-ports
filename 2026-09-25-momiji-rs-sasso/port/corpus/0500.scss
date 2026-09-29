@@ -1,0 +1,2 @@
+@use "sass:meta";
+a {b: meta.type-of(clamp(1%, 2px, 3px)); c: meta.calc-name(min(1%, 2px))}

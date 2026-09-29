@@ -1,0 +1,3 @@
+.p :not([data="&-c"]), .q :not([data="&-c"]) {
+  c: 1;
+}

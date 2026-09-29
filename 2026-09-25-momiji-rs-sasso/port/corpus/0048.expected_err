@@ -1,0 +1,6 @@
+Error: expected ";".
+  ╷
+1 │ @import "a" (b: c) supports(d: e);
+  │                    ^
+  ╵
+  - 1:20  root stylesheet

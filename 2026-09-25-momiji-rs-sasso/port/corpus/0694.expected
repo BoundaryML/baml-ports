@@ -1,0 +1,5 @@
+@media screen { /* t */
+  a {
+    b: c;
+  }
+}

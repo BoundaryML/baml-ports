@@ -1,0 +1,5 @@
+.nav {
+  %p { x: y; }
+  > .c { @extend %p; }
+}
+.brand { y: z; }

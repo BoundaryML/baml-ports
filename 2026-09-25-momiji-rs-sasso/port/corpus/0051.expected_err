@@ -1,0 +1,6 @@
+Error: Expected token.
+  ╷
+1 │ @import url("a.css") supports(--a:);
+  │                                   ^
+  ╵
+  - 1:35  root stylesheet

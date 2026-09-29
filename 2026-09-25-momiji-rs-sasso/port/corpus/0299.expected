@@ -1,0 +1,3 @@
+.p:h + .p:i, .p:i + .p:h, .p:i + .p:i, .p:h + .v:i, .p:i + .v:h, .p:i + .v:i, .v:h + .p:i, .v:i + .p:h, .v:i + .p:i, .v:h + .v:i, .v:i + .v:h, .v:i + .v:i {
+  x: y;
+}

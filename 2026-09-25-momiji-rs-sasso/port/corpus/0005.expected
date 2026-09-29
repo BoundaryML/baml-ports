@@ -1,0 +1,9 @@
+.a {
+  color: white;
+  background: black;
+  padding: 1px;
+}
+
+.b {
+  x: 1;
+}

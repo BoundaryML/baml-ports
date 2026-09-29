@@ -1,0 +1,5 @@
+@keyframes a {
+  from, to {
+    c: d;
+  }
+}

@@ -1,0 +1,2 @@
+@use "sass:string";
+a {c: 1; b: string.unquote(""); d: 2}

@@ -1,0 +1,7 @@
+@use "sass:color";
+a {
+  s1: color.scale(red, $lightness: 50%, $space: oklch);
+  s2: color.scale(oklch(0.5 0.1 90), $chroma: 50%, $space: oklch);
+  s3: color.scale(lab(50 40 30), $a: 50%, $space: lab);
+  s4: color.scale(color(srgb 0.5 0.5 0.5), $red: 50%, $space: srgb);
+}

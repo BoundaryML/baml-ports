@@ -1,0 +1,3 @@
+a[data-op="a > b"] {
+  color: red;
+}

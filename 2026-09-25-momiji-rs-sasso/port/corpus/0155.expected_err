@@ -1,0 +1,24 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ a { b: desaturate(plum, 14%); }
+  │        ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+
+DEPRECATION WARNING [color-functions]: desaturate() is deprecated. Suggestions:
+
+color.scale($color, $saturation: -29.606557377%)
+color.adjust($color, $saturation: -14%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+1 │ a { b: desaturate(plum, 14%); }
+  │        ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+

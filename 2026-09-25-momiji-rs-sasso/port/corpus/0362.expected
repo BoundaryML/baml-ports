@@ -1,0 +1,12 @@
+a {
+  v_local: true;
+  v_global: true;
+  v_none: false;
+  gv_yes: true;
+  gv_no: false;
+  mx: true;
+  mx_no: false;
+  fn_user: true;
+  fn_builtin: true;
+  fn_no: false;
+}

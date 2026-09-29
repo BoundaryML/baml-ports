@@ -1,0 +1,8 @@
+a {
+  get: f;
+  getp: (e: f);
+  has: true;
+  hasn: false;
+  merge: (c: (d: (e: f)));
+  rem: (e: f);
+}

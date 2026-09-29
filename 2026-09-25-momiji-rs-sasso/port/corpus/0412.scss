@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.channel(hsl(300, 0%, 50%), "hue")}

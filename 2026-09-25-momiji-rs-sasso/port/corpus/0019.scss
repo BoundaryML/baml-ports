@@ -1,0 +1,9 @@
+.a {
+  color: red;
+  @at-root .b {
+    color: green;
+  }
+}
+@at-root .c {
+  color: blue;
+}

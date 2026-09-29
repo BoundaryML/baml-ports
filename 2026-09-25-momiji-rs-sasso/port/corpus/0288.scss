@@ -1,0 +1,5 @@
+.hl { @extend %h; h: 1; }
+.bl { @extend %l; b: 1; }
+.lead { @extend %l; }
+%l + %h { p: 1; }
+.after { @extend %l; }

@@ -1,0 +1,20 @@
+@supports (display: grid) {
+  .a {
+    display: grid;
+  }
+}
+@supports (display: grid) and (gap: 1rem) {
+  .b {
+    gap: 1rem;
+  }
+}
+@supports not (display: grid) {
+  .c {
+    float: left;
+  }
+}
+@supports (a: b) or (c: d) {
+  .d {
+    x: y;
+  }
+}

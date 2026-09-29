@@ -1,0 +1,3 @@
+$x: 1;
+@use "sass:meta";
+a { b: meta.call(meta.get-function("variable-exists"), "x"); }

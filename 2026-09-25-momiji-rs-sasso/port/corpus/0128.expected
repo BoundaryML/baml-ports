@@ -1,0 +1,3 @@
+@function --a() returns <ident> {
+  result: b;
+}

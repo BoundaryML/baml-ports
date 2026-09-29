@@ -1,0 +1,7 @@
+@use "sass:meta";
+@mixin outer() {
+  @if meta.content-exists() { @content; }
+  @else { had: none; }
+}
+a { @include outer() { got: yes; } }
+b { @include outer(); }

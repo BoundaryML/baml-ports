@@ -1,0 +1,12 @@
+@use "sass:map";
+@use "sass:color";
+@use "sass:meta";
+$m: (a: 1, b: 2);
+a {
+  g: map.get($m, a);
+  k: meta.inspect(map.keys($m));
+  adj: color.adjust(#123456, $red: 10);
+  mix: color.mix(red, blue);
+  ie: color.ie-hex-str(#abcdef);
+  tof: meta.type-of(5px);
+}

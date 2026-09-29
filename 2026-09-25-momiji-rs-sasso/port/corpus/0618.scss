@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.unify(":nth-of-type(3n - 2)", "a")}

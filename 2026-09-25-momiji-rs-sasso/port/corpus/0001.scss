@@ -1,0 +1,7 @@
+$brand: #2a7ae2;
+.x {
+  color: rgba($brand, 0.5);
+  background: darken($brand, 15%);
+  border-color: hsl(120, 50%, 40%);
+  width: percentage(0.25);
+}

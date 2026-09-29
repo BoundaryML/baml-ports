@@ -1,0 +1,8 @@
+@use "sass:list";
+@use "sass:meta";
+@function args($a...) { @return $a; }
+a {
+  ea: meta.inspect((p: args()));
+  el: meta.inspect((p: ()));
+  ec: meta.inspect((p: list.join((), (), comma)));
+}

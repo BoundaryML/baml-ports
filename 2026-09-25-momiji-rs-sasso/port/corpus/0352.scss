@@ -1,0 +1,7 @@
+@use "sass:color";
+a {
+  a1: color.adjust(red, $lightness: 0.1, $space: oklch);
+  a2: color.adjust(oklch(0.8 0.1 90), $lightness: 0.5, $space: oklch);
+  a3: color.adjust(oklch(0.5 0.1 90), $chroma: -0.5, $space: oklch);
+  a4: color.adjust(lab(80 0 0), $lightness: 50, $space: lab);
+}

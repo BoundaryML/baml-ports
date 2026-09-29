@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.change($color: red, $hue: 120)}

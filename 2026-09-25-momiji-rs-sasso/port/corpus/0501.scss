@@ -1,0 +1,3 @@
+@use "sass:list";
+@use "sass:meta";
+a {b: meta.inspect(meta.calc-args(clamp(1%, 2px, 3px)))}

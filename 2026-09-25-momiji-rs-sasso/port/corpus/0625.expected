@@ -1,0 +1,3 @@
+a {
+  b: :-ms-matches(.c, .d);
+}

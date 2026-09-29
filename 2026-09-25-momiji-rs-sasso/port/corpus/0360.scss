@@ -1,0 +1,8 @@
+@use "sass:list";
+@use "sass:meta";
+a {
+  c: meta.inspect((1,));
+  s: meta.inspect(list.append((), 1, slash));
+  sp: meta.inspect(list.append((), 1, space));
+  m: meta.inspect(list.join((1,), (2,), slash));
+}

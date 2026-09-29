@@ -1,0 +1,8 @@
+@use "sass:meta";
+@use "sass:map";
+a {
+  set: meta.inspect(map.set((c: (d: e)), c, f, g));
+  setn: meta.inspect(map.set($map: (c: d), $key: c, $value: e));
+  dm: meta.inspect(map.deep-merge((c: (d: e, f: g)), (c: (j: 1, f: 2))));
+  dr: meta.inspect(map.deep-remove((c: (d: e, f: g, h: i)), c, f));
+}

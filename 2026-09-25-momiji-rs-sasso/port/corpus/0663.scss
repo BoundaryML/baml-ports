@@ -1,0 +1,12 @@
+@use "sass:math";
+$number: math.div(1px * 1rad, 1ms * 1Hz);
+a {
+  c1: calc($number / (1px / 1ms));
+  c2: calc($number / 1px);
+  c3: calc($number * 1ms);
+  c5: calc($number * 1s);
+  c6: calc(1 / (1 / 1px / 1rad));
+  c7: calc(1 / (1px * 1rad));
+  m: calc(2px * 3px) / 4px;
+  inv: calc(infinity / 1px);
+}

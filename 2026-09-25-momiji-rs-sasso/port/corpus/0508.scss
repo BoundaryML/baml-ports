@@ -1,0 +1,3 @@
+@use "sass:meta";
+@function t($args...) {@return meta.type-of($args)}
+a {b: t(1, 2)}

@@ -1,0 +1,3 @@
+.p [data-x="a\"b'c"] .p, .p [data-x="a\"b'c"] .q, .q [data-x="a\"b'c"] .p, .q [data-x="a\"b'c"] .q {
+  d: 1;
+}

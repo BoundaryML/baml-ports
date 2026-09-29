@@ -1,0 +1,16 @@
+@use "sass:math";
+@use "sass:meta";
+a {
+  m1: 1px * 1em;
+  d1: math.div(1px, 1s);
+  d2: math.div(1, 1px);
+  u1: math.unit(1px * 1em * 1rad);
+  u3: math.unit(math.div(math.div(1px, 1em), math.div(1rad, 1s)));
+  u5: math.unit(math.div(1px, 1em));
+  c1: meta.inspect(math.div(1px, 1s));
+  abs: math.abs(math.div(-1px, 1s));
+  i1: math.div(1, 0px);
+  i2: math.div(1px * 1em, 0);
+  i3: math.div(1px, 0em);
+  cancel: math.div(math.div(1px, 1s), math.div(1px, 1s));
+}

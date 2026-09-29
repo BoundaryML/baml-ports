@@ -1,0 +1,8 @@
+@use "sass:string";
+a {
+  s: string.split("a, b, c", ", ");
+  l: string.split("a, b, c, d", ", ", 2);
+  e: string.split("Helvetica", "");
+  u: string.split(abc, "");
+  nf: string.split("a, b, c", "&");
+}

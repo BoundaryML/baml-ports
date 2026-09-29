@@ -1,0 +1,3 @@
+.l:hover, .l:focus {
+  o: 1;
+}

@@ -1,0 +1,11 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.variable-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ $x: 1; a { b: variable_exists("x"); }
+  │               ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:15  root stylesheet
+

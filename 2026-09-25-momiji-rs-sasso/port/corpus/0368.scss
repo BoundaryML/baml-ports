@@ -1,0 +1,2 @@
+@use "sass:math";
+a { b: math.$min-number * 1e300 * 1e39; }

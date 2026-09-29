@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.is-superselector(":is(c)", ":is(c, d)")}
