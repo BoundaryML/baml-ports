@@ -1,0 +1,9 @@
+[package]
+name = "toml"
+
+[scripts]
+# Ports of the Go commands (cmd/*) and _example.
+toml-test-decoder = "--function cmd.toml_test_decoder -- toml_test_decoder"
+toml-test-encoder = "--function cmd.toml_test_encoder -- toml_test_encoder"
+tomlv = "--function cmd.tomlv -- tomlv"
+example = "--function example.main -- main"

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Wrapper for the locally built baml-cli from the port-yuin-goldmark worktree.
+export BAML_AGENT_SKILL_CHECK=off
+exec /Users/sam/baml-worktrees/baml/port-yuin-goldmark/baml_language/target/fasttest/baml-cli "$@" 2> >(grep -v "internal BAML toolchain binary directly" >&2)
