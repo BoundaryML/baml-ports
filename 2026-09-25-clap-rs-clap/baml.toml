@@ -1,0 +1,13 @@
+[package]
+name = "clap"
+version = "4.6.1"
+description = "A simple to use, efficient, and full-featured Command Line Argument Parser"
+
+# [scripts]
+# dev = "-f main"
+
+# Add a client generator, then generate its SDK:
+#   baml generate add python/pydantic2
+#   baml generate
+#
+# Run `baml generate add --help` to see every supported output type.
