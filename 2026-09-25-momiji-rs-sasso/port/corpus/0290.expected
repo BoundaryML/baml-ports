@@ -1,0 +1,10 @@
+.cf, .c-md, .c-sm {
+  a: b;
+}
+
+.nav > .c,
+.nav > .cf,
+.nav > .c-sm,
+.nav > .c-md {
+  x: y;
+}

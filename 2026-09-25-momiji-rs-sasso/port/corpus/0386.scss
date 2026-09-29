@@ -1,0 +1,2 @@
+@use "sass:list";
+a {b: list.set-nth([c, d], 2, e)}

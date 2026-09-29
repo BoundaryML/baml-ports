@@ -1,0 +1,25 @@
+.col-1 {
+  width: 10px;
+}
+
+.col-2 {
+  width: 20px;
+}
+
+.col-3 {
+  width: 30px;
+}
+
+.pair-x {
+  order: 1;
+}
+
+.pair-y {
+  order: 2;
+}
+
+.counter {
+  p-0: 0px;
+  p-1: 2px;
+  p-2: 4px;
+}

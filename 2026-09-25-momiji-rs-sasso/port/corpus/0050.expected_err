@@ -1,0 +1,6 @@
+Error: Expected identifier.
+  ╷
+1 │ @import "a" b, "c";
+  │                ^
+  ╵
+  - 1:16  root stylesheet

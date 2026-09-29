@@ -1,0 +1,11 @@
+a {
+  cl_num: 1;
+  cl_max: 1;
+  cl_inv: 1;
+  cl_unit: 360deg;
+  mn: 1px;
+  mn_conv: 5mm;
+  mx: 3;
+  rnd: 2;
+  ln: 0.6931471806;
+}

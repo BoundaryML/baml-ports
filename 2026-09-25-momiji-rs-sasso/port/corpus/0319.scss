@@ -1,0 +1,3 @@
+:is(midstream) {@extend upstream}
+downstream {@extend midstream}
+upstream {a: b}

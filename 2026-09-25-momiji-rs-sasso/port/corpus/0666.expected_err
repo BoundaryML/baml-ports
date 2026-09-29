@@ -1,0 +1,6 @@
+Error: Number calc(1px * 1px) isn't compatible with CSS calculations.
+  ╷
+1 │ a {b: calc(min(1px*1px, 2em*2em))}
+  │            ^
+  ╵
+  - 1:12  root stylesheet

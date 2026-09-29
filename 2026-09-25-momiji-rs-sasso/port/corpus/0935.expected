@@ -1,0 +1,5 @@
+@media (min-width: 0) and (x: ab) {
+  .a {
+    b: c;
+  }
+}

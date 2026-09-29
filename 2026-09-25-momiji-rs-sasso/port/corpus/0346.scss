@@ -1,0 +1,15 @@
+@use "sass:color";
+a {
+  s1: color.space(red);
+  s2: color.space(oklch(0.5 0.1 90deg));
+  ch1: color.channel(red, "red", $space: srgb);
+  ch2: color.channel(color.to-space(red, oklch), "lightness");
+  ch3: color.channel(oklch(0.5 0.1 90deg), "hue");
+  leg1: color.is-legacy(red);
+  leg2: color.is-legacy(oklch(0.5 0.1 90deg));
+  miss: color.is-missing(color(srgb none 0.5 0.7), "red");
+  gam1: color.is-in-gamut(color(srgb 1.5 0 0));
+  gam2: color.is-in-gamut(red);
+  same1: color.same(red, color.to-space(red, oklch));
+  same2: color.same(red, blue);
+}

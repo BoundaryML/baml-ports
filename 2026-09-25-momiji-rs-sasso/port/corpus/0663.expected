@@ -1,0 +1,10 @@
+a {
+  c1: calc(1rad / 1Hz);
+  c2: calc(1rad / 1ms / 1Hz);
+  c3: calc(1px * 1rad / 1Hz);
+  c5: calc(1000px * 1rad / 1Hz);
+  c6: calc(1px * 1rad);
+  c7: calc(1 / 1px / 1rad);
+  m: calc(6px * 1px)/4px;
+  inv: calc(infinity / 1px);
+}

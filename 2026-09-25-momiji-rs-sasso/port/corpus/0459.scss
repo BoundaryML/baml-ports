@@ -1,0 +1,8 @@
+@use "sass:meta";
+@mixin a {@content}
+@mixin b {x: y}
+z {
+  c: meta.accepts-content(meta.get-mixin("a"));
+  d: meta.accepts-content(meta.get-mixin("b"));
+  e: meta.accepts-content(meta.get-mixin("apply", "meta"));
+}

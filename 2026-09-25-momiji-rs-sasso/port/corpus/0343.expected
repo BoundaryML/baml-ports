@@ -1,0 +1,8 @@
+a {
+  g: 1;
+  k: a, b;
+  adj: #1c3456;
+  mix: rgb(50%, 0%, 50%);
+  ie: #FFABCDEF;
+  tof: number;
+}

@@ -1,0 +1,7 @@
+@use "sass:meta";
+@function ud() { @return null; }
+a {
+  eq_builtin: meta.get-function(lighten) == meta.get-function(lighten);
+  ne_builtin: meta.get-function(lighten) == meta.get-function(darken);
+  eq_user: meta.get-function(ud) == meta.get-function(ud);
+}

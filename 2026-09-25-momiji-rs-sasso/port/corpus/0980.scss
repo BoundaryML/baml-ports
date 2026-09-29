@@ -1,0 +1,2 @@
+@use "sass:color"; @use "sass:meta";
+a { b: meta.inspect(meta.get-function("lighten", $module: "color")); }

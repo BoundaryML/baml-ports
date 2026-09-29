@@ -1,0 +1,2 @@
+@use "sass:list";
+a {b: list.join(list.join((), (), space), (1, 2))}

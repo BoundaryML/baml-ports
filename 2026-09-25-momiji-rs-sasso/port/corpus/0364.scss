@@ -1,0 +1,14 @@
+@use "sass:meta";
+@function add-two($v) { @return $v + 2; }
+$u: meta.get-function(add-two);
+$b: meta.get-function(round);
+$c: meta.get-function(round, $css: true);
+a {
+  user: meta.call($u, 10);
+  builtin: meta.call($b, 0.6);
+  css: meta.call($c, 0.6);
+  rgb_pos: meta.call(meta.get-function("rgb"), 1, 2, 3);
+  rgb_named: meta.call(meta.get-function("rgb"), $blue: 1, $green: 2, $red: 3);
+  insp: meta.inspect($b);
+  tof: meta.type-of($b);
+}

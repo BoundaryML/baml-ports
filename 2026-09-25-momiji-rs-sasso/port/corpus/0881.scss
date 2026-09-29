@@ -1,0 +1,2 @@
+@function sum($n...) { $t: 0; @each $x in $n { $t: $t + $x; } @return $t; }
+.a { order: sum(1, 2, 3, 4); }

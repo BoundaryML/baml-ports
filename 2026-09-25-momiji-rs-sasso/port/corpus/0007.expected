@@ -1,0 +1,12 @@
+.a {
+  z-index: 100;
+  order: 10;
+  padding: 4px;
+  color: blue;
+}
+
+.b {
+  border: 1px solid;
+  background: yellow;
+  margin: 0;
+}

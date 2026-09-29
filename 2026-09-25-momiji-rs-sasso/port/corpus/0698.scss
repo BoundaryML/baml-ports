@@ -1,0 +1,6 @@
+@use "sass:color";
+.a {
+  filter: color.alpha(opacity=20);
+  filter: color.alpha(a=b, c=d);
+  filter: color.alpha($color: opacity=20);
+}

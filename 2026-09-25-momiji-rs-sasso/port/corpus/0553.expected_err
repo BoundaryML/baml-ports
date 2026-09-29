@@ -1,0 +1,10 @@
+DEPRECATION WARNING [color-module-compat]: Passing a number (2) to color.grayscale() is deprecated.
+
+Recommendation: grayscale(2)
+
+  ╷
+2 │ a {b: color.grayscale(calc(1 + 1))}
+  │       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:7  root stylesheet
+

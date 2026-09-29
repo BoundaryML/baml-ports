@@ -1,0 +1,3 @@
+.a { x: y; @extend .b; }
+.b { @extend .c; }
+.c { z: w; }

@@ -1,0 +1,14 @@
+@use "sass:color";
+a {
+  c1: color(srgb 0.2 0.5 0.7);
+  c2: color(srgb 1.1 -0.2 0.3);
+  c3: color(srgb 10% 20% 30% / 0.5);
+  c4: oklch(0.1 0.2 3deg);
+  c5: oklch(1.1 0.2 3deg);
+  c6: lab(50 40 30);
+  c7: lch(50 40 270);
+  c8: oklab(0.5 0.1 -0.05);
+  c9: color(xyz 0.1 0.2 0.3);
+  c10: color(xyz-d50 0.1 0.2 0.3);
+  c11: color(display-p3-linear 0.5 0.6 0.7);
+}

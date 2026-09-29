@@ -1,0 +1,6 @@
+Error: calc(1px * 1em) and 1px have incompatible units.
+  ╷
+1 │ a {b: (1px * 1em) + 1px}
+  │                   ^
+  ╵
+  - 1:19  root stylesheet

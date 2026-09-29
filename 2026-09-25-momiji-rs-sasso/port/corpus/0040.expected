@@ -1,0 +1,2 @@
+@import "a" supports(b: c);
+@import "d.css";

@@ -1,0 +1,10 @@
+a {
+  b: lighten(red, 100%);
+  c: darken(red, 100%);
+  d: lighten(red, 14%);
+  e: mix(red, red);
+  f: mix(red, white, 50%);
+  g: rgba(red, 1);
+  h: rgba(#102030, 1);
+  i: rgba(red, 0.5);
+}

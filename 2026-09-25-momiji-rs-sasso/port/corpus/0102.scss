@@ -1,0 +1,2 @@
+@mixin m($b, $c..., ) { d: $b; e: $c; }
+f { @include m(1, 2, 3); }

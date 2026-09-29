@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.extend(":is(.c)", ".c", ".d")}

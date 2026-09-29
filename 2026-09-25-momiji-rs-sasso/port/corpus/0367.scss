@@ -1,0 +1,12 @@
+@use "sass:math";
+a {
+  cl_num: math.clamp(0, 1, 2);
+  cl_max: math.clamp(0, 2, 1);
+  cl_inv: math.clamp(1, 2, 0);
+  cl_unit: math.clamp(180deg, 1turn, 360deg);
+  mn: math.min(3px, 1px, 2px);
+  mn_conv: math.min(1cm, 5mm);
+  mx: math.max(1, 2, 3);
+  rnd: math.round(1.6);
+  ln: math.log(2, null);
+}

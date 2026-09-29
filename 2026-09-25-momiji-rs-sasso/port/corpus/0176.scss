@@ -1,0 +1,1 @@
+@use "sass:string"; a { b: string.length(hsl(0, 100%, calc(-infinity * 1%))); }

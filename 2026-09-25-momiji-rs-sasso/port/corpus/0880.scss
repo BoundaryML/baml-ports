@@ -1,0 +1,2 @@
+@function cap($v, $max: 100) { @if $v > $max { @return $max; } @return $v; }
+.a { x: cap(150); y: cap(50, $max: 60); }

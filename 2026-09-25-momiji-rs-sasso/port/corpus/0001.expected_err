@@ -1,0 +1,35 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │   background: darken($brand, 15%);
+  │               ^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:15  root stylesheet
+
+DEPRECATION WARNING [color-functions]: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -28.5447761194%)
+color.adjust($color, $lightness: -15%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+4 │   background: darken($brand, 15%);
+  │               ^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:15  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use math.percentage instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │   width: percentage(0.25);
+  │          ^^^^^^^^^^^^^^^^
+  ╵
+    - 6:10  root stylesheet
+

@@ -1,0 +1,6 @@
+$f: bar;
+a {
+  foo: url($f);
+  foo: url(#{$f});
+  foo: url("x?v=#{$f}");
+}

@@ -1,0 +1,5 @@
+div {
+  $y: 1;
+  @for $i from 1 through 3 { $y: $y + 5; y: $y; }
+  after: $y;
+}

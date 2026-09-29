@@ -1,0 +1,4 @@
+$d: "x.com";
+@foo url(https://#{$d}/), "foo#{'ba' + 'r'}baz", foo#{'ba' + 'r'}baz {
+  .a { b: c }
+}

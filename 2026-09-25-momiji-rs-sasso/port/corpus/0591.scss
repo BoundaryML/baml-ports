@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.scale($color: color(a98-rgb 0.2 0.5 0.7), $red: 12%, $green: 24%, $blue: 48%)}

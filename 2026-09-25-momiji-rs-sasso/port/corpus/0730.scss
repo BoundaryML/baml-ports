@@ -1,0 +1,2 @@
+@use "sass:color";
+a {x: color.to-space(color(srgb 2 0 0.5), rgb)}

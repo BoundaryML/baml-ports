@@ -1,0 +1,7 @@
+.nav {
+  %p { x: y; }
+  @each $s in (sm, md) {
+    > .c-#{$s} { @extend %p; }
+  }
+}
+.brand { y: z; }

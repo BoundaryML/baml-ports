@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.is-superselector(":-pfx-is(c d, e f, g h)", "c d")}

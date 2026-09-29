@@ -1,0 +1,10 @@
+@media a {
+  x {
+    p: q;
+  }
+}
+@media b {
+  y {
+    p: q;
+  }
+}

@@ -1,0 +1,3 @@
+%x#bar {a: b}
+%y, %y:before {@extend %x}
+z {@extend %y}

@@ -1,0 +1,8 @@
+@import "a.css" supports(a: b);
+@import "a.css" supports(a: b);
+@import "a.css" supports((a: b) and (c: d));
+@import "a.css" supports(not (a: b));
+@import "a.css" supports(a(b));
+@import "a.css" supports(calc(1));
+@import "a.css" supports(--a: b);
+@import "a.css" supports(--a: ,);

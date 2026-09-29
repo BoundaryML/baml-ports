@@ -1,0 +1,24 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ a { b: saturate(#abcdef, 10%); }
+  │        ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+
+DEPRECATION WARNING [color-functions]: saturate() is deprecated. Suggestions:
+
+color.scale($color, $saturation: 31.25%)
+color.adjust($color, $saturation: 10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+1 │ a { b: saturate(#abcdef, 10%); }
+  │        ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+

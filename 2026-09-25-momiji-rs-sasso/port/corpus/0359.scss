@@ -1,0 +1,8 @@
+@use "sass:meta";
+a {
+  a: meta.inspect([1, 2, 3]);
+  b: meta.inspect([]);
+  c: meta.inspect([[1, 2] [3, 4]]);
+  d: meta.inspect(((1, 2): 3, (4, 5): 6));
+  e: meta.inspect((1: 2 3, 4: 5 6));
+}

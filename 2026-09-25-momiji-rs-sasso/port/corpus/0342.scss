@@ -1,0 +1,12 @@
+@use "sass:math" as m;
+@use "sass:string";
+@use "sass:list" as *;
+a {
+  s: string.length("abc");
+  up: string.to-upper-case("ab");
+  q: string.quote(foo);
+  sep: separator(1 2 3);
+  len: length(1 2 3);
+  nth: nth((a b c), 2);
+  round: m.round(1.6);
+}

@@ -1,0 +1,7 @@
+.parent {
+  color: red;
+  @at-root .top {
+    color: green;
+    @media screen { color: blue; }
+  }
+}

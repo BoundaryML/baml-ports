@@ -1,0 +1,3 @@
+.q-c:not(.q--anim) .q--mini {
+  x: y;
+}

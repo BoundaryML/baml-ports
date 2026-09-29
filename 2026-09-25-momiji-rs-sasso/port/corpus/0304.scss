@@ -1,0 +1,6 @@
+$bps: (sm: 10px, md: 20px);
+.fluid { w: 1; }
+@each $bp, $w in $bps {
+  .c-#{$bp} { @extend .fluid; }
+  @media (min-width: $w) { .x { max-width: $w; } }
+}

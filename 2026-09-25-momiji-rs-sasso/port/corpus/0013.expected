@@ -1,0 +1,3 @@
+a[data-foo=zzz] {
+  color: red;
+}

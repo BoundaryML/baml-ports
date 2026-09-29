@@ -1,0 +1,11 @@
+.hl {
+  h: 1;
+}
+
+.bl {
+  b: 1;
+}
+
+.after + .hl, .bl + .hl, .lead + .hl {
+  p: 1;
+}

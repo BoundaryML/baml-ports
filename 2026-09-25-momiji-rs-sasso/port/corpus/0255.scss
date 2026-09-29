@@ -1,0 +1,8 @@
+@mixin banner($f) {
+  /*!
+   * Banner #{$f}text
+   * line two
+   */
+}
+@include banner("");
+.a { x: y; }

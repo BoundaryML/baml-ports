@@ -1,0 +1,9 @@
+a {
+  user: 12;
+  builtin: 1;
+  css: round(0.6);
+  rgb_pos: rgb(1, 2, 3);
+  rgb_named: rgb(3, 2, 1);
+  insp: get-function("round");
+  tof: function;
+}

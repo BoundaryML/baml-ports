@@ -1,0 +1,4 @@
+.x {
+  a: quote(arg);
+  b: 2foo(arg);
+}

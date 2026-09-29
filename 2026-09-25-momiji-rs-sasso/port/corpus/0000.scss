@@ -1,0 +1,6 @@
+$c: #336699;
+.a {
+  color: $c;
+  .b { color: lighten($c, 10%); }
+  &:hover { color: mix($c, white, 50%); }
+}

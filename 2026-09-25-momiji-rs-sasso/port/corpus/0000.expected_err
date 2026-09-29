@@ -1,0 +1,35 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │   .b { color: lighten($c, 10%); }
+  │               ^^^^^^^^^^^^^^^^
+  ╵
+    - 4:15  root stylesheet
+
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 16.6666666667%)
+color.adjust($color, $lightness: 10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+4 │   .b { color: lighten($c, 10%); }
+  │               ^^^^^^^^^^^^^^^^
+  ╵
+    - 4:15  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │   &:hover { color: mix($c, white, 50%); }
+  │                    ^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 5:20  root stylesheet
+

@@ -1,0 +1,7 @@
+.icon-warning {
+  content: "warning-3";
+}
+
+.col-3 {
+  width: 30px;
+}

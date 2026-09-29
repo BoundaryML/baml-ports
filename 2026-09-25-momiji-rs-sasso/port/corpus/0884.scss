@@ -1,0 +1,5 @@
+.a {
+  @function first($n) { @return second($n) + 1; }
+  @function second($n) { @return $n * 2; }
+  order: first(3);
+}

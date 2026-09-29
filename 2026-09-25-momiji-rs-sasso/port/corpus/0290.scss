@@ -1,0 +1,8 @@
+.cf { a: b; }
+.c-sm { @extend .cf; }
+.c-md { @extend .cf; }
+.nav {
+  %p { x: y; }
+  > .c,
+  > .cf { @extend %p; }
+}

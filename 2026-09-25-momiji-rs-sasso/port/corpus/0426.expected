@@ -1,0 +1,3 @@
+a {
+  b: lch(50% calc(infinity) 30deg);
+}

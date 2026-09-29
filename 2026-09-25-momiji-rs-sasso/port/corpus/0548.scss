@@ -1,0 +1,4 @@
+a {
+  @function foo() {@return 1}
+  b: foo();
+}

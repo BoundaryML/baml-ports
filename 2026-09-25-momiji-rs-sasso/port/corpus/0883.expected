@@ -1,0 +1,5 @@
+.a {
+  border: 1px;
+  background: yellow;
+  margin: 0;
+}

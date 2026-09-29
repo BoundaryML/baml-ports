@@ -1,0 +1,11 @@
+a {
+  jb_both: [c d e f];
+  jb_first: [c d e f];
+  jb_second: c d e f;
+  jb_force_t: [c d];
+  jb_force_f: c d;
+  jb_pos: [c, d];
+  jmap: c d, e f, g h;
+  ap_b: [1];
+  ap_map: c d, e f, g;
+}

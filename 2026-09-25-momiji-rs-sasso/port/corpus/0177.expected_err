@@ -1,0 +1,6 @@
+Error: Undefined operation "1px + hsl(0, 100%, calc(-infinity * 1%))".
+  ╷
+1 │ a { b: 1px + hsl(0, 100%, calc(-infinity * 1%)); }
+  │            ^
+  ╵
+  - 1:12  root stylesheet

@@ -1,0 +1,2 @@
+@use "sass:meta"; @use "sass:map";
+a { b: meta.call(meta.get-function("get", $module: "map"), (x: 1), x); }

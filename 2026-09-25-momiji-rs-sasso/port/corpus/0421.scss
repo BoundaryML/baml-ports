@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.same(color(display-p3 0.1 0.3 none), color(display-p3 0.1 0.3 0))}

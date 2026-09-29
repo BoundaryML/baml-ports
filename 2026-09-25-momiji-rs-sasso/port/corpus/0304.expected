@@ -1,0 +1,14 @@
+.fluid, .c-md, .c-sm {
+  w: 1;
+}
+
+@media (min-width: 10px) {
+  .x {
+    max-width: 10px;
+  }
+}
+@media (min-width: 20px) {
+  .x {
+    max-width: 20px;
+  }
+}

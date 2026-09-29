@@ -1,0 +1,6 @@
+.a, .b {
+  margin: 0;
+  > .c { padding: 1px; }
+  &.active { color: red; }
+  .d & { color: blue; }
+}

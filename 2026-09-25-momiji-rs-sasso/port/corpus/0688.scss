@@ -1,0 +1,7 @@
+@media all {
+  .bar {a: b}
+  @media (min-width: 1px) {
+    .baz {a: b}
+    @media (max-width: 2em) {.foo {a: b}}
+  }
+}

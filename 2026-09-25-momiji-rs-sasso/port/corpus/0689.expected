@@ -1,0 +1,9 @@
+@media all {
+  .foo {
+    a: b;
+  }
+}
+
+.bar {
+  c: d;
+}

@@ -1,0 +1,6 @@
+$x: root;
+div {
+  @for $i from 1 through 1 { $x: looped; }
+  v: $x;
+}
+after { x: $x; }

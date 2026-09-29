@@ -1,0 +1,5 @@
+a {
+  foo: url(bar);
+  foo: url(bar);
+  foo: url("x?v=bar");
+}

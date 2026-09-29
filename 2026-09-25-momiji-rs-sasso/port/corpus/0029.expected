@@ -1,0 +1,7 @@
+a {
+  b: invert(10%);
+  c: grayscale(15%);
+  d: saturate(50%);
+  e: grayscale(var(--c));
+  f: invert(3);
+}

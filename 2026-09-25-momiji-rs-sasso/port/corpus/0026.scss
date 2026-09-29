@@ -1,0 +1,10 @@
+.a {
+  a: calc(1in + 1cm);
+  b: calc(1cm + 1in);
+  c: calc(5s - 100ms);
+  d: calc(1px + 1pt);
+  e: calc(10px / 2cm);
+  f: calc(1turn + 90deg);
+  g: calc(100% - 10px);
+  h: calc(1px + 1vw);
+}

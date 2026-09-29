@@ -1,0 +1,12 @@
+@use "sass:math";
+a {
+  pi: math.$pi;
+  e: math.$e;
+  div: math.div(10, 3);
+  divu: math.div(10px, 2);
+  abs: math.abs(-5);
+  pct: math.percentage(0.2);
+  unit: math.unit(5px);
+  iu: math.is-unitless(5);
+  comp: math.compatible(1px, 1cm);
+}

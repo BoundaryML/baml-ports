@@ -1,0 +1,2 @@
+@function a($b: 1, ) { @return $b; }
+c { d: a(); }

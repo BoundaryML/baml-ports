@@ -1,0 +1,6 @@
+.nav > .c-md, .nav > .c-sm {
+  x: y;
+}
+.brand {
+  y: z;
+}

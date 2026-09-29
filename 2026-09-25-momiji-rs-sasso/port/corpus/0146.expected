@@ -1,0 +1,3 @@
+a {
+  b: url(http://d.e/f!g);
+}

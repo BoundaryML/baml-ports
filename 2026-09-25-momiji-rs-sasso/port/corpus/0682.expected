@@ -1,0 +1,10 @@
+@media (r: after) and (a: b) {
+  x {
+    y: z;
+  }
+}
+@media (r: after) {
+  a {
+    b: c;
+  }
+}

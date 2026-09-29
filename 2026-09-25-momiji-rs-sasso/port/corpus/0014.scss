@@ -1,0 +1,7 @@
+.a {
+  color: black;
+  @media-like screen {
+    color: red;
+  }
+  .b { color: green; }
+}

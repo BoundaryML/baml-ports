@@ -1,0 +1,10 @@
+@for $i from 1 through 3 {
+  .col-#{$i} { width: $i * 10px; }
+}
+@each $a, $b in (x 1), (y 2) {
+  .pair-#{$a} { order: $b; }
+}
+.counter {
+  $i: 0;
+  @while $i < 3 { p-#{$i}: $i * 2px; $i: $i + 1; }
+}

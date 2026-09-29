@@ -1,0 +1,5 @@
+a {
+  eq_builtin: true;
+  ne_builtin: false;
+  eq_user: true;
+}

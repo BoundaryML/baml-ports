@@ -1,0 +1,12 @@
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(true and false): y; else: n)
+
+More info: https://sass-lang.com/d/if-function
+
+  ╷
+1 │ .a { x: if(true and false, y, n); }
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:9  root stylesheet
+

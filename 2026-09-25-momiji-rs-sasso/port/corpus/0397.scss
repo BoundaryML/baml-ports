@@ -1,0 +1,2 @@
+@use "sass:list";
+a { b: lab(list.slash(1% 2 3, 0.5)); }

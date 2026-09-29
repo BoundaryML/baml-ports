@@ -1,0 +1,10 @@
+h1,
+.alpha {
+  font-size: 1px;
+}
+@media (a: b) {
+  h1,
+  .alpha {
+    font-size: 2px;
+  }
+}

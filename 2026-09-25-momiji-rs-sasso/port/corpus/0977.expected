@@ -1,0 +1,3 @@
+a {
+  b: get-function("to-upper-case");
+}

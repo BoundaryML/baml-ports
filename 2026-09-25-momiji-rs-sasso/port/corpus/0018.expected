@@ -1,0 +1,8 @@
+@supports (a: b) and ((c: d) or (e: f)) {
+  .g {
+    h: i;
+  }
+}
+@supports (x: y) {
+  @inner foo;
+}

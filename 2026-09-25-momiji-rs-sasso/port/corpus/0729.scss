@@ -1,0 +1,2 @@
+@use "sass:color";
+a {x: color.mix(hsl(0, 100%, calc(-infinity * 1%)), red)}

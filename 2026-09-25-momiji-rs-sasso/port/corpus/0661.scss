@@ -1,0 +1,9 @@
+%h {
+  &:hover,
+  &:focus {
+    o: 1;
+  }
+}
+.l {
+  @extend %h;
+}

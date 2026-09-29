@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.is-superselector(":host(c d, e f, g h)", ":host(c d.i, e j f)")}

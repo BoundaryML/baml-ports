@@ -1,0 +1,2 @@
+$n: 2;
+.a { @if $n == 1 { x: a; } @else if $n == 2 { x: b; } @else { x: c; } }

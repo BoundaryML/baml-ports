@@ -1,0 +1,4 @@
+@plain value;
+@block {
+  x: y;
+}

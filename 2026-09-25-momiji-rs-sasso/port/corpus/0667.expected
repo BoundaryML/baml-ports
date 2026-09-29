@@ -1,0 +1,8 @@
+a {
+  b: color-mix(in lab, color(xyz -0.0008490836 -0.0011252303 -0.0019074181) 100%, black);
+  c: color-mix(in lab, color(xyz 0.9800916844 1.0256547252 1.1008715873) 100%, black);
+  d: color-mix(in lch, color(xyz 0.0012200352 -0.001195609 -0.0023995202) 100%, black);
+  e: color-mix(in oklab, color(xyz 1.1483391308 0.9918752896 0.5452110072) 100%, black);
+  f: color-mix(in oklch, color(xyz 0.0000290233 -0.0000074612 -0.0001097935) 100%, black);
+  g: color-mix(in lab, color(xyz -0.0008490836 -0.0011252303 -0.0019074181 / 0.5) 100%, black);
+}

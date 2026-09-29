@@ -1,0 +1,30 @@
+DEPRECATION WARNING [color-module-compat]: Using color.alpha() for a Microsoft filter is deprecated.
+
+Recommendation: alpha(opacity=20)
+
+  ╷
+3 │   filter: color.alpha(opacity=20);
+  │           ^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 3:11  root stylesheet
+
+DEPRECATION WARNING [color-module-compat]: Using color.alpha() for a Microsoft filter is deprecated.
+
+Recommendation: alpha(a=b, c=d)
+
+  ╷
+4 │   filter: color.alpha(a=b, c=d);
+  │           ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:11  root stylesheet
+
+DEPRECATION WARNING [color-module-compat]: Using color.alpha() for a Microsoft filter is deprecated.
+
+Recommendation: alpha(opacity=20)
+
+  ╷
+5 │   filter: color.alpha($color: opacity=20);
+  │           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 5:11  root stylesheet
+

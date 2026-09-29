@@ -1,0 +1,12 @@
+.a, .b {
+  margin: 0;
+}
+.a > .c, .b > .c {
+  padding: 1px;
+}
+.a.active, .b.active {
+  color: red;
+}
+.d .a, .d .b {
+  color: blue;
+}

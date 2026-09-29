@@ -1,0 +1,11 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.call instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │ a { b: meta.call(meta.get-function("call"), meta.get-function("rgb"), 1, 2, 3); }
+  │        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:8  root stylesheet
+

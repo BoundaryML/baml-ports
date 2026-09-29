@@ -1,0 +1,9 @@
+@keyframes a {
+  0%, 60%, 100% {
+    opacity: 1;
+  }
+}
+a,
+b {
+  c: d;
+}

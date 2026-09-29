@@ -1,0 +1,6 @@
+@use "sass:list";
+@use "sass:map";
+a {
+  sep: list.separator(map.keys(()));
+  sepv: list.separator(map.values(()));
+}

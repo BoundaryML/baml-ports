@@ -1,0 +1,11 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.has-key instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ a { b: map-has-key((c: d), c); }
+  │        ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:8  root stylesheet
+

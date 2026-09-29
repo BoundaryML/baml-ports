@@ -1,0 +1,2 @@
+@use "sass:string";
+a { b: string.length(inspect(unquote("\e000"))); }

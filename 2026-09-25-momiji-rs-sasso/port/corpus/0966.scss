@@ -1,0 +1,2 @@
+@use "sass:meta"; @use "sass:color";
+a { b: meta.inspect(meta.get-function("scale", $module: "color")); }

@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.extend(":where(.x)", ".x", ".x .y")}

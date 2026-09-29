@@ -1,0 +1,11 @@
+@use "sass:color";
+a {
+  s: color.invert(color(srgb 0.2 0.5 0.8), $space: srgb);
+  lab: color.invert(lab(20% -30 110), $space: lab);
+  lch: color.invert(lch(20% 80 50deg), $space: lch);
+  hsl: color.invert(hsl(120 50% 40%), $space: hsl);
+  hwb: color.invert(hwb(120 30% 40%), $space: hwb);
+  w: color.invert(color(a98-rgb 0.1 0.4 0.8), 0%, $space: a98-rgb);
+  legacy: color.invert(#123456);
+  legacy_w: color.invert(#123456, 30%);
+}

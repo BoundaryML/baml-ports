@@ -1,0 +1,14 @@
+@use "sass:color";
+a {
+  o1: color.to-space(red, oklch);
+  o2: color.to-space(red, lab);
+  o3: color.to-space(red, display-p3);
+  o4: color.to-space(red, xyz);
+  o5: color.to-space(red, xyz-d50);
+  o6: color.to-space(red, prophoto-rgb);
+  o7: color.to-space(red, rec2020);
+  o8: color.to-space(red, lch);
+  o9: color.to-space(red, oklab);
+  o10: color.to-space(red, srgb-linear);
+  o11: color.to-space(red, hsl);
+}

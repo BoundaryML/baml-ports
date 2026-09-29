@@ -1,0 +1,2 @@
+@use "sass:color";
+a {b: color.to-space(lab(none 20 30), oklab)}

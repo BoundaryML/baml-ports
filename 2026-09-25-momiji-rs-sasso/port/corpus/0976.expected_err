@@ -1,0 +1,21 @@
+DEPRECATION WARNING [call-string]: Passing a string to call() is deprecated and will be illegal in Dart Sass 2.0.0.
+
+Recommendation: call(get-function("variable_exists"))
+
+  ╷
+1 │ @use "sass:meta"; $x: 1; a { b: meta.call("variable_exists", "x"); }
+  │                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:33  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.variable-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @use "sass:meta"; $x: 1; a { b: meta.call("variable_exists", "x"); }
+  │                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 1:33  root stylesheet
+

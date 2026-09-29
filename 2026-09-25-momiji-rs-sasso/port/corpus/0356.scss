@@ -1,0 +1,10 @@
+@use "sass:meta";
+@use "sass:map";
+a {
+  get: map.get((c: (d: (e: f))), c, d, e);
+  getp: meta.inspect(map.get((c: (d: (e: f))), c, d));
+  has: map.has-key((c: (d: (e: f))), c, d, e);
+  hasn: map.has-key((c: (d: (e: f))), c, d, g);
+  merge: meta.inspect(map.merge((c: 1), c, d, (e: f)));
+  rem: meta.inspect(map.remove($map: (c: d, e: f), $key: c));
+}

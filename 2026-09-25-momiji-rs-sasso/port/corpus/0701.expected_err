@@ -1,0 +1,20 @@
+DEPRECATION WARNING [color-module-compat]: Passing a number (1) to color.grayscale() is deprecated.
+
+Recommendation: grayscale(1)
+
+  ╷
+4 │   a: meta.call(meta.get-function("grayscale", $module: "color"), 1);
+  │      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:6  root stylesheet
+
+DEPRECATION WARNING [color-module-compat]: Using color.alpha() for a Microsoft filter is deprecated.
+
+Recommendation: alpha(opacity=20)
+
+  ╷
+5 │   b: meta.call(meta.get-function("alpha", $module: "color"), opacity=20);
+  │      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 5:6  root stylesheet
+

@@ -1,0 +1,2 @@
+@use "sass:meta";
+a { b: meta.call(meta.get-function("call"), meta.get-function("rgb"), 1, 2, 3); }

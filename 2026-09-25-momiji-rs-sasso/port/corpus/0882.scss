@@ -1,0 +1,3 @@
+@mixin box($pad, $color: blue) { padding: $pad; color: $color; }
+.a { @include box(4px); }
+.b { @include box(8px, red); }

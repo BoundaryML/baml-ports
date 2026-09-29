@@ -1,0 +1,106 @@
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+2 │   b: adjust-hue(red, 540);
+  │      ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: adjust-hue() is deprecated. Suggestion:
+
+color.adjust($color, $hue: 540deg)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+2 │   b: adjust-hue(red, 540);
+  │      ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 2:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+3 │   c: adjust-hue(blue, 0);
+  │      ^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 3:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: adjust-hue() is deprecated. Suggestion:
+
+color.adjust($color, $hue: 0deg)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+3 │   c: adjust-hue(blue, 0);
+  │      ^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 3:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │   d: adjust-hue(red, -180);
+  │      ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: adjust-hue() is deprecated. Suggestion:
+
+color.adjust($color, $hue: -180deg)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+4 │   d: adjust-hue(red, -180);
+  │      ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 4:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │   e: adjust-hue(red, 60rad);
+  │      ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 5:6  root stylesheet
+
+DEPRECATION WARNING [color-functions]: adjust-hue() is deprecated. Suggestion:
+
+color.adjust($color, $hue: 3437.7467707849deg)
+
+More info: https://sass-lang.com/d/color-functions
+
+  ╷
+5 │   e: adjust-hue(red, 60rad);
+  │      ^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    - 5:6  root stylesheet
+
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.complement instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │   f: complement(aqua);
+  │      ^^^^^^^^^^^^^^^^
+  ╵
+    - 6:6  root stylesheet
+
+WARNING: 2 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+

@@ -1,0 +1,2 @@
+@use "sass:selector";
+a {b: selector.extend(":-ms-matches(.c)", ".c", ".d")}

@@ -1,0 +1,6 @@
+@use "sass:color";
+.a {
+  filter: color.grayscale(1);
+  filter: color.invert(0.5);
+  filter: color.opacity(0.5);
+}
